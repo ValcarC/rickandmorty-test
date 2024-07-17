@@ -1,0 +1,37 @@
+.container {
+  margin-top: 50px;
+  height: auto;
+  display: flex; /* Cambiado a flex */
+  flex-direction: column; /* Dirección de columna para alinear verticalmente */
+  align-items: center; /* Centra horizontalmente los elementos */
+  justify-content: center; /* Centra verticalmente los elementos */
+  color: navy;
+  background-color: yellowgreen;
+  border: 10px solid purple;
+  border-radius: 15px;
+  width: 280px;
+  height: 420px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 14px;
+  gap: 20px; /* Espacio entre elementos */
+}
+
+.cont {
+  margin-top: 50px;
+  margin: 12px;
+  font-family: "Patrick Hand", cursive;
+  font-size: 10px;
+  background-color: orangered;
+  color: wheat;
+  width: 24px;
+  height:24px ;
+  border: none;
+  border-radius: 50%;
+}
+
+.image {
+  border-radius: 50%;
+  border: 5px solid purple;
+  width: 160px;
+  margin: 30px;
+}
